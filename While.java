@@ -22,3 +22,6 @@ public class While
     } 
 }
 
+// while- when you only want to run if the condition is true
+// do while- the command you execute when the statement is false
+// for- loop in terms of  the usage for database files network, repetiton of something
