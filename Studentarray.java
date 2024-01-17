@@ -10,7 +10,7 @@ class Student
 public class Studentarray 
 {
 
-    public static void main(String[] args) 
+    public static void main(String a[]) 
     {
         Student s1 = new Student();
         s1.rollno = 1;
@@ -36,7 +36,7 @@ public class Studentarray
         
         for(int i=0; i<students.length;i++)
         {
-            System.out.println(s1);
+            System.out.println(students[i].name + ":" + students[i].marks);
         }
 
     }
