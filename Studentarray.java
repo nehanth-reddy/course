@@ -14,7 +14,7 @@ public class Studentarray
     {
         Student s1 = new Student();
         s1.rollno = 1;
-        s1.name = "navin";
+        s1.name = "Navin";
         s1.marks = 88;
 
         
@@ -34,9 +34,9 @@ public class Studentarray
         students[1] = s2;
         students[2] = s3;
         
-        for(int i=0; i<students.length;i++)
+        for(Student stud : students)
         {
-            System.out.println(students[i].name + ":" + students[i].marks);
+            System.out.println(stud.name + ":" + stud.marks);
         }
 
     }
